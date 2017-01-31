@@ -50,17 +50,17 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/google_login_ico"
         android:layout_marginBottom="15dp"
-        android:id="@+id/imageButton3"
+        android:id="@+id/googleLogButton"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imageButton4"
-        android:layout_toEndOf="@+id/imageButton4" />
+        android:layout_toRightOf="@+id/facebookLogButton"
+        android:layout_toEndOf="@+id/facebookLogButton" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/network_facebook"
-        android:id="@+id/imageButton4"
-        android:layout_alignTop="@+id/imageButton3"
+        android:id="@+id/facebookLogButton"
+        android:layout_alignTop="@+id/googleLogButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
