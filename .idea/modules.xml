@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Amaken-Application.iml" filepath="$PROJECT_DIR$/Amaken-Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amaken-For-Test-afaf.iml" filepath="$PROJECT_DIR$/Amaken-For-Test-afaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
