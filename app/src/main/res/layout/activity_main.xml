@@ -33,7 +33,7 @@ android:background="@drawable/main_ico1"
         android:layout_marginStart="37dp"
         android:layout_marginBottom="39dp"
         android:id="@+id/textView2"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="#073A60"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -43,11 +43,11 @@ android:background="@drawable/main_ico1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/signin_icon1"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="26dp"
         android:id="@+id/imageButton7"
         android:background="#00ffffff"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
 
 </RelativeLayout>
