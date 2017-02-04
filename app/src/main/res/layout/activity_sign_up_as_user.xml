@@ -47,7 +47,7 @@
                 android:inputType="textEmailAddress"
                 android:ems="10"
                 android:id="@+id/email"
-                android:hint="Email Address" />
+                android:hint="  Email Address" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -55,7 +55,15 @@
                 android:inputType="textPassword"
                 android:ems="10"
                 android:id="@+id/password"
-                android:hint="Password" />
+                android:hint=" Password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText11"
+                android:text="Name" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -103,16 +111,30 @@
                 android:inputType="number"
                 android:ems="10"
                 android:id="@+id/age"
-                android:hint="Age" />
+                android:hint="   Age" />
 
-            <ImageButton
+            <TextView
+                android:text="Country"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+
+                    />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <ImageButton
+                android:layout_width="124dp"
+                android:layout_height="41dp"
                 app:srcCompat="@drawable/next_ico"
                 android:id="@+id/imageButton4"
                 android:background="#00ffffff"
                 android:layout_marginLeft="200dp"
-                android:layout_marginTop="150dp" />
+                android:layout_marginTop="50dp" />
         </LinearLayout>
 
     </LinearLayout>

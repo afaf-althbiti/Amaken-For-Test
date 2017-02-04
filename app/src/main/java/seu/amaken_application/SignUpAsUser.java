@@ -1,7 +1,7 @@
 package seu.amaken_application;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class SignUpAsUser extends AppCompatActivity {
 
@@ -9,5 +9,7 @@ public class SignUpAsUser extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_as_user);
+
     }
+
 }
